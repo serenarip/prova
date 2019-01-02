@@ -1,0 +1,177 @@
+
+
+.doc {
+        width: 604px;
+        margin: 0 auto;
+    }
+
+canvas {
+        display: block;
+        border: 2px solid #888;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+/* FONTS */
+
+@font-face {
+    font-family: "Dislexie Bold";
+    src: url(./fonts/dislexiebold.ttf) format("truetype");
+}
+
+
+@media screen and (max-width: 2800px) {
+
+  body {
+    font-size: 30pt;
+    margin-top: 10%;
+
+  }
+
+  .homepage {
+    width: 250px;
+    margin-top: 5%;
+
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+  body {
+    font-size: 25pt;
+    margin-top: 15%;
+
+  }
+
+  .homepage {
+    width: 200px;
+    margin-top: 7%;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 20pt;
+    margin-top: 20%;
+    margin-bottom: 40%;
+  }
+
+  .homepage {
+    width: 200px;
+    margin-top: 7%;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+
+  body {
+    font-size: 20pt;
+    margin-top: 20%;
+    margin-bottom: 40%;
+  }
+
+  .homepage {
+    width: 150px;
+    margin-top: 7%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  body {
+    font-size: 20pt;
+    margin-top: 25%;
+    margin-bottom: 40%;
+  }
+
+  .homepage {
+    width: 150px;
+    margin-top: 7%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  body {
+    font-size: 20pt;
+    margin-top: 40%;
+    margin-bottom: 40%;
+  }
+
+  .homepage {
+    width: 150px;
+    margin-top: 7%;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 20pt;
+    margin-top: 40%;
+    margin-bottom: 40%;
+  }
+
+  .homepage {
+    width: 150px;
+    margin-top: 20%;
+  }
+}
+
+/* BODY */
+
+body {
+  background-color: #edecda;
+  font-family: 'Dislexie Bold';
+  color: #032833;
+  text-align: center;
+
+}
+
+
+.homepage {
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#firstname {
+  background-color: #edecda;
+  border: none;
+  border-bottom: solid 6px #032833;
+  width: 300px;
+  font-family: 'Dislexie Bold';
+  font-size: 25px;
+  text-align: center;
+  color: #032833;
+}
+
+#age {
+  background-color: #edecda;
+  border: none;
+  border-bottom: solid 7px #032833;
+  width: 300px;
+  font-family: 'Dislexie Bold';
+  font-size: 25px;
+  text-align: center;
+    color: #032833;
+}
+
+.option {
+  width: 250px;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.submit {
+  width: 150px;
+  margin-top: 2%;
+}
